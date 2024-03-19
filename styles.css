@@ -355,7 +355,7 @@ button[type="submit"] {
   margin-left: 32vw;
 }
 
-.boton1 {
+.boton1{
   background-color: var(--color-verde);
   padding-left: 5vw;
   padding-right: 5vw;
@@ -363,22 +363,15 @@ button[type="submit"] {
   border-bottom-right-radius: 30px;
   font-size: 2vw;
   font-weight: 300;
-  
-}
-
-
-.section3__boton1:nth-child(1) {
-  padding-left: 5vw;
-  padding-right: 5vw;
 }
 
 /* seccion 4 */
 
-.section-4-container {
+.section4__container {
   position: relative;
 }
 
-.first-title4 {
+.section4__titulo {
   position: absolute;
   top: 50%;
   left: 20px;
@@ -389,25 +382,26 @@ button[type="submit"] {
   z-index: 1;
 }
 
-.titulo1-section4 {
+.section4__titulo3 {
   font-size: 3.5vw;
   margin: 0;
   font-weight: bold;
 }
 
-.titulo2-section4 {
+.section4__titulo2 {
   margin: 0;
   font-size: 2.3vw;
   font-weight: 500;
   letter-spacing: 1vw;
 }
 
-.parrafo1-section4 {
+.section4__parrafo {
   width: 35%;
   text-align: justify;
   color: #216400;
   font-weight: 500;
   font-size: 1.3vw;
+  margin-bottom: 5vw;
 }
 
 .fondo2 {
@@ -415,9 +409,6 @@ button[type="submit"] {
   height: auto;
 }
 
-.boton-container4 {
-  margin-top: 5vw;
-}
 
 .boton1 {
   background-color: var(--color-verde);
@@ -438,7 +429,7 @@ button[type="submit"] {
 
 /* seccion 5 */
 
-.titulo5-container {
+.section5__titulo-container {
   position: relative;
   text-align: center;
   width: 100%;
@@ -928,31 +919,30 @@ button[type="submit"] {
   .espaciado3{
     margin-left: 45vw;
   }
-  .section-4-container {
+  .section4__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    
   }
 
-  .first-title4 {
+  .section4__titulo {
     position: static;
     text-align: center;
     transform: translateY(-10%);
   }
 
-  .titulo1-section4 {
+  .section4__titulo3 {
     font-size: 6vw; 
   }
 
-  .titulo2-section4 {
+  .section4__titulo2 {
     font-size: 4vw; 
     letter-spacing: 0.5vw; 
   }
   .boton1{
     font-size: 3vw;
   }
-  .parrafo1-section4 {
+  .section4__parrafo {
     width: 90%; 
     text-align: center; 
     font-size: 3vw; 
